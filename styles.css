@@ -78,3 +78,14 @@ h2{
     text-align : center;
     padding: 30px;
 }
+
+@media screen and (max-width: 600px){
+        #container{
+            flex-direction: column;
+            min-width: fit-content;
+        }
+        #cardContagem{
+            min-width: 100%;
+            width: fit-content
+        }
+    }
